@@ -35,7 +35,7 @@ services:
       MYSQL_USERNAME: root
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: new_pingCRM
+      MYSQL_DATABASE: test
     volumes:
       - ./docker/mysql/data:/var/lib/mysql
     networks:
